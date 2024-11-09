@@ -12,7 +12,7 @@ steps:
 images:
 - gcr.io/$PROJECT_ID/$PROJECT_NAME
 substitutions:
-  _PROJECT_ID: 'flaskworldapp1-441004'
-  _PROJECT_NAME: 'flaskworldapp1'
+  PROJECT_ID: 'flaskworldapp1-441004'
+  PROJECT_NAME: 'flaskworldapp1'
 options:
   logging: CLOUD_LOGGING_ONLY
